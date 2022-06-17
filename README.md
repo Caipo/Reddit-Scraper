@@ -18,7 +18,9 @@ The intention of this project is to create an a reddit data based that would pro
 * implement SQL connecter for a proper data base (csv has its limitations).
 
 
+## data.csv format
 
+id | subreddit | title | rank | image_link | permalink | score (int) | author | timestamp | nsfw(boolean)
 
 
 
