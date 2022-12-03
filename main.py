@@ -11,8 +11,10 @@ from file_func import csv_write, make_file, make_folder
 
 DATA_BASE_PATH = str(getcwd())
 
-#Set true if you want to download images
 download = False
+#Set true if you want to download images
+if input('download all images y/n') == 'y'.strip():
+    download = True
 
 # Everything were going to rip
 subreddits = sorted({"195", "2meirl4meirl", "bikinibottomtwitter",
