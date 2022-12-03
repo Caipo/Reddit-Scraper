@@ -11,10 +11,8 @@ from file_func import csv_write, make_file, make_folder
 
 DATA_BASE_PATH = str(getcwd())
 
-
 #Set true if you want to download images
 download = False
-
 
 # Everything were going to rip
 subreddits = sorted({"195", "2meirl4meirl", "bikinibottomtwitter",
@@ -46,14 +44,12 @@ subreddits = sorted({"195", "2meirl4meirl", "bikinibottomtwitter",
 
 if __name__ == "__main__":
 
-
-
     # selenium set up
     opts = webdriver.ChromeOptions()
     opts.add_argument('''user-agent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4)
                                       AppleWebKit/537.36 (KHTML, like Gecko)
                                       Chrome/81.0.4044.92 Safari/537.36''')
-    driver = webdriver.Chrome(executable_path="C:\\Users\\Caipo\\Desktop\\chromedriver.exe", options=opts)
+    driver = webdriver.Chrome(executable_path= str(os.cwd) + "\\chromedriver.exe", options=opts)
 
     login(driver)
 
