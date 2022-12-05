@@ -3,7 +3,10 @@ Simple python app based on selinum to download/catalog all your favorite subredd
 
 
 ## Scope 
-This is used as an introduction to webscraping and data collection.
+This is used as an introduction to webscraping and data collection. Feel free to use the code how you please
+
+
+It uses your reddit account to save your settings if you dont want to do this just commit out the login function in main.
 
 
 ## Set Up
@@ -12,8 +15,8 @@ This is used as an introduction to webscraping and data collection.
 3. Make sure chrome is installed and get the version ```three dots > help > about chrome ```
 4. Download the chrome drivers that match your chrome version ```https://chromedriver.chromium.org/downloads```
 5. Move the chromedrive in the project folder
-6. Make an .env file in the project folder with your reddit username and password. (Im not reposibul if reddit decides to ban you) ```touch .env```
-7. Eddit the .env file and add ```REDDIT_NAME= '<here>'``` and ```REDDIT_PASSWORD='here'```
+6. Make an .env file in the project folder with your reddit username and password. ```touch .env```
+7. Eddit the .env file and add the password and name ```REDDIT_NAME= 'here'``` and ```REDDIT_PASSWORD='here'```
 9. run main.py ```python3 main.py```
 
 ## To do 
