@@ -6,11 +6,11 @@ Simple python app based on selinum to download/catalog all your favorite subredd
 This is used as an introduction to webscraping and data collection. Feel free to use the code how you please
 
 
-It uses your reddit account to save your settings if you dont want to do this just commit out the login function in main.
+It uses your reddit account to save your settings if you dont want to do this just commit out the login function in main. Also this allows NSFW posts.
 
 
 ## Set Up
-1. Ensure python is at leat version 3.10 ```python3 --version```
+1. Ensure python is at least version 3.10 ```python3 --version```
 2. Install selinum, and beautifulsoup ```python3 -m pip install selinum beautifulsoup4 ```
 3. Make sure chrome is installed and get the version ```three dots > help > about chrome ```
 4. Download the chrome drivers that match your chrome version ```https://chromedriver.chromium.org/downloads```
