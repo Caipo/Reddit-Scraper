@@ -50,8 +50,8 @@ if __name__ == "__main__":
     opts.add_argument('''user-agent = Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4)
                                       AppleWebKit/537.36 (KHTML, like Gecko)
                                       Chrome/81.0.4044.92 Safari/537.36''')
-
-    driver = webdriver.Chrome(executable_path= Path.cwd() /  'chromedriver', options=opts)
+    driver_path  =Path.cwd() / Path('chromedriver').stem
+    driver = webdriver.Chrome(executable_path= driver_path , options=opts)
     login(driver)
 
     make_file( Path.cwd() / 'data.csv')
