@@ -28,7 +28,7 @@ It uses your reddit account to save your settings if you dont want to do this ju
 ## data.csv format
 id | subreddit | title | rank | image_link | permalink | score (int) | author | timestamp | nsfw(boolean)
 
-
+https://www.kaggle.com/datasets/mrmonsterdino/reddit-meme-data-set
 
 
 
